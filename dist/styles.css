@@ -1,0 +1,48 @@
+:root {
+  --primary-color: #6b4683;
+  --secondary-color: #ffdd91;
+}
+
+.header {
+  height: auto;
+  font-size: 2.5rem;
+}
+
+.header .flex,
+.navbar .flex,
+.about-page .flex {
+  flex-direction: row;
+}
+
+.menu .flex {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+li {
+  padding: 1rem;
+  margin: 1rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.navbar li:hover {
+  color: #ffdd91;
+}
+
+.about-body p {
+  width: 40%;
+}
+
+.about-body img {
+  height: 600px;
+}
+
+.menu h1 {
+  font-size: 2rem;
+}
+
+.milkshakes {
+  border-bottom: 5px solid #ffdd91;
+  border-radius: 10px;
+}
