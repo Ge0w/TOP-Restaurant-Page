@@ -1,16 +1,16 @@
 {
   "name": "restaurant-page",
-  "homepage": "https://www.georgewalker.dev/TOP-Restaurant-Page/",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "dist": "webpack",
+    "predeploy": "npm run dist",
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
+  "homepage": "https://Ge0w.github.io/TOP-Restaurant-Page",
   "license": "ISC",
   "devDependencies": {
     "gh-pages": "^3.2.3",
