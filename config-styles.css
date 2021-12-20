@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+:root {
+  --primary-color: #6b4683;
+  --secondary-color: #ffdd91;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Pacifico", sans-serif;
+  color: #fff;
+  line-height: 1.6;
+  background-color: #6b4683;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+h1,
+h2 {
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 10px 0;
+}
+
+input {
+  line-height: 1.2;
+}
+
+p {
+  margin: 10px 0;
+  font-size: 1.5rem;
+}
+
+img {
+  max-height: 100%;
+  height: 100px;
+}
+
+/* Utilities */
+.my-1-2 {
+  margin: 0.5rem;
+}
+
+.my-1 {
+  margin: 1rem;
+}
+.my-2 {
+  margin: 1.5rem;
+}
+.my-3 {
+  margin: 2rem;
+}
+
+.py-1-2 {
+  padding: 0.5rem;
+}
+
+.py-1 {
+  padding: 1rem;
+}
+.py-2 {
+  padding: 1.5rem;
+}
+.py-3 {
+  padding: 2rem;
+}
+
+.card {
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  width: 250px;
+  margin: 1.5rem 1.5rem;
+  padding: 1.5rem 1.5rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  cursor: pointer;
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  width: 100px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.flex-between {
+  justify-content: space-evenly;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
