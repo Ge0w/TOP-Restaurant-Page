@@ -12,7 +12,7 @@
 .header {
   height: 60vh;
   font-size: 2.5rem;
-  background-image: url(../dist/images/baked-sale2.jpg);
+  background-image: url(./images/baked-sale2.jpg);
   background-size: 100% 100%;
   color: #fff;
 }
