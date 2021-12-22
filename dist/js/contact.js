@@ -1,10 +1,37 @@
 const contact = () => {
     const contact = document.createElement('section')
-    contact.classList.add('contact','order','flex')
+    contact.classList.add('contact','flex')
 
-    const details = document.createElement('h1')
-    details.textContent = 'Contact details here'
-    contact.append(details)
+    const uList = document.createElement('ul')
+    uList.classList.add('flex');
+    contact.append(uList)
+
+    const facebook = document.createElement('li')
+    facebook.textContent = 'Facebook'
+    const fbIcon = document.createElement('i')
+    fbIcon.classList.add('fab', 'fa-facebook')
+
+    const twitter = document.createElement('li')
+    twitter.textContent = 'Twitter'
+    const twitterIcon = document.createElement('i')
+    twitterIcon.classList.add('fab', 'fa-twitter')
+
+    const insta = document.createElement('li')
+    insta.textContent = 'Instagram'
+    const instaIcon = document.createElement('i')
+    instaIcon.classList.add('fab', 'fa-instagram')
+
+    const deliveroo = document.createElement('li')
+    deliveroo.textContent = 'Deliveroo'
+
+    uList.append(facebook)
+    uList.append(twitter)
+    uList.append(insta)
+    uList.append(deliveroo)
+
+    facebook.append(fbIcon)
+    twitter.append(twitterIcon)
+    insta.append(instaIcon)
 
     return contact
 }

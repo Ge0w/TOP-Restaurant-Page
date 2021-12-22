@@ -1,16 +1,30 @@
 :root {
-  --primary-color: #6b4683;
+  --primary-color: #eee2dc;
   --secondary-color: #ffdd91;
 }
 
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 .header {
-  height: auto;
+  height: 60vh;
   font-size: 2.5rem;
+  background-image: url(../dist/images/baked-sale2.jpg);
+  background-size: 100% 100%;
+  color: #fff;
+}
+
+.about-page {
+  height: 40vh;
 }
 
 .header .flex,
 .navbar .flex,
-.about-page .flex {
+.about-page .flex,
+.contact .flex {
   flex-direction: row;
 }
 
@@ -27,22 +41,57 @@ li {
 }
 
 .navbar li:hover {
-  color: #ffdd91;
-}
-
-.about-body p {
-  width: 40%;
-}
-
-.about-body img {
-  height: 600px;
+  color: var(--primary-color);
 }
 
 .menu h1 {
   font-size: 2rem;
 }
 
+.contact {
+  height: 40vh;
+}
+
+.contact svg {
+  margin-left: 15px;
+}
+
+.contact li:hover {
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+
 .milkshakes {
   border-bottom: 5px solid #ffdd91;
   border-radius: 10px;
+}
+
+.contact .flex {
+  flex-direction: row;
+}
+
+@media screen and (max-width: 1100px) {
+  .header {
+    height: 40vh;
+  }
+
+  .about-page {
+    height: 60vh;
+  }
+
+  .contact {
+    height: 60vh;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .contact .flex {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .about-page p {
+    font-size: 3.5vw;
+  }
 }
