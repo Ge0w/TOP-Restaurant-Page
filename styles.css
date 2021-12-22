@@ -19,7 +19,8 @@
 
 .header .flex,
 .navbar .flex,
-.about-page .flex {
+.about-page .flex,
+.contact .flex {
   flex-direction: row;
 }
 

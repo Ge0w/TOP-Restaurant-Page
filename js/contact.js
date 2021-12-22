@@ -2,16 +2,16 @@ const contact = () => {
     const contact = document.createElement('section')
     contact.classList.add('contact','order','flex')
 
-    const facebook = document.createElement('h1')
+    const facebook = document.createElement('li')
     facebook.textContent = 'Facebook'
 
-    const twitter = document.createElement('h1')
+    const twitter = document.createElement('li')
     twitter.textContent = 'Twitter'
 
-    const insta = document.createElement('h1')
+    const insta = document.createElement('li')
     insta.textContent = 'Facebook'
 
-    const deliveroo = document.createElement('h1')
+    const deliveroo = document.createElement('li')
     deliveroo.textContent = 'Deliveroo'
 
     contact.append(facebook)
