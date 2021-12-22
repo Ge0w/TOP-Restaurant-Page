@@ -48,7 +48,7 @@ li {
   border-radius: 10px;
 }
 
-.contact > .flex {
+.contact .flex {
   flex-direction: row;
 }
 
