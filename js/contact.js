@@ -8,12 +8,18 @@ const contact = () => {
 
     const facebook = document.createElement('li')
     facebook.textContent = 'Facebook'
+    const fbIcon = document.createElement('i')
+    fbIcon.classList.add('fab', 'fa-facebook')
 
     const twitter = document.createElement('li')
     twitter.textContent = 'Twitter'
+    const twitterIcon = document.createElement('i')
+    twitterIcon.classList.add('fab', 'fa-twitter')
 
     const insta = document.createElement('li')
-    insta.textContent = 'Facebook'
+    insta.textContent = 'Instagram'
+    const instaIcon = document.createElement('i')
+    instaIcon.classList.add('fab', 'fa-instagram')
 
     const deliveroo = document.createElement('li')
     deliveroo.textContent = 'Deliveroo'
@@ -22,6 +28,10 @@ const contact = () => {
     uList.append(twitter)
     uList.append(insta)
     uList.append(deliveroo)
+
+    facebook.append(fbIcon)
+    twitter.append(twitterIcon)
+    insta.append(instaIcon)
 
     return contact
 }

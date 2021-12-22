@@ -44,6 +44,10 @@ li {
   font-size: 2rem;
 }
 
+.contact {
+  height: 40vh;
+}
+
 .milkshakes {
   border-bottom: 5px solid #ffdd91;
   border-radius: 10px;
