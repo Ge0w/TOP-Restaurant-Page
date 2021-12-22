@@ -1,6 +1,6 @@
 const header = () => {
     const header = document.createElement('div');
-    header.classList.add('header','my-1','py-1','flex');
+    header.classList.add('header','py-1','flex');
 
     const flexContainer = document.createElement('div');
     flexContainer.classList.add('flex','logo');
