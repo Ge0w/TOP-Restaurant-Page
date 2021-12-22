@@ -2,6 +2,10 @@ const contact = () => {
     const contact = document.createElement('section')
     contact.classList.add('contact','flex')
 
+    const uList = document.createElement('ul')
+    uList.classList.add('flex');
+    contact.append(uList)
+
     const facebook = document.createElement('li')
     facebook.textContent = 'Facebook'
 
@@ -14,10 +18,10 @@ const contact = () => {
     const deliveroo = document.createElement('li')
     deliveroo.textContent = 'Deliveroo'
 
-    contact.append(facebook)
-    contact.append(twitter)
-    contact.append(insta)
-    contact.append(deliveroo)
+    uList.append(facebook)
+    uList.append(twitter)
+    uList.append(insta)
+    uList.append(deliveroo)
 
     return contact
 }
