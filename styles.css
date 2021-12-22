@@ -17,6 +17,10 @@
   color: #fff;
 }
 
+.about-page {
+  height: 40vh;
+}
+
 .header .flex,
 .navbar .flex,
 .about-page .flex,
@@ -48,6 +52,15 @@ li {
   height: 40vh;
 }
 
+.contact svg {
+  margin-left: 15px;
+}
+
+.contact li:hover {
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+
 .milkshakes {
   border-bottom: 5px solid #ffdd91;
   border-radius: 10px;
@@ -59,7 +72,7 @@ li {
 
 @media screen and (min-width: 1400px) {
   .header {
-    height: 100vh;
+    height: 40vhvh;
   }
 }
 
