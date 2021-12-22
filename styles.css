@@ -48,6 +48,10 @@ li {
   border-radius: 10px;
 }
 
+.contact .flex {
+  flex-direction: row;
+}
+
 @media screen and (min-width: 1400px) {
   .header {
     height: 100vh;
