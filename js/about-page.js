@@ -2,10 +2,10 @@ const aboutPage = () => {
     console.log('About Page')
 
     const aboutPage = document.createElement('section')
-    aboutPage.classList.add('about-page','flex')
+    aboutPage.classList.add('about-page','flex', 'my-1', 'py-1')
 
     const aboutBody = document.createElement('div')
-    aboutBody.classList.add('about-body','flex', 'my-1', 'py-1')
+    aboutBody.classList.add('about-body','flex')
     aboutPage.append(aboutBody)
 
     // const imgBaker = document.createElement('img')
