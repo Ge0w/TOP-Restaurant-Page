@@ -1,6 +1,6 @@
 const contact = () => {
     const contact = document.createElement('section')
-    contact.classList.add('contact','order','flex')
+    contact.classList.add('contact','flex')
 
     const facebook = document.createElement('li')
     facebook.textContent = 'Facebook'
