@@ -9,17 +9,17 @@ const contact = () => {
     const facebook = document.createElement('li')
     facebook.textContent = 'Facebook'
     const fbIcon = document.createElement('i')
-    fbIcon.classList.add('fab', 'fa-facebook', 'my-1')
+    fbIcon.classList.add('fab', 'fa-facebook')
 
     const twitter = document.createElement('li')
     twitter.textContent = 'Twitter'
     const twitterIcon = document.createElement('i')
-    twitterIcon.classList.add('fab', 'fa-twitter', 'my-1')
+    twitterIcon.classList.add('fab', 'fa-twitter')
 
     const insta = document.createElement('li')
     insta.textContent = 'Instagram'
     const instaIcon = document.createElement('i')
-    instaIcon.classList.add('fab', 'fa-instagram', 'my-1')
+    instaIcon.classList.add('fab', 'fa-instagram')
 
     const deliveroo = document.createElement('li')
     deliveroo.textContent = 'Deliveroo'
