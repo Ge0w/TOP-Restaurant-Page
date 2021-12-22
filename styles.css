@@ -3,9 +3,17 @@
   --secondary-color: #ffdd91;
 }
 
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 .header {
-  height: auto;
+  height: 60vh;
   font-size: 2.5rem;
+  background-image: url(../dist/images/baked-sale2.jpg);
+  background-size: 100% 100%;
 }
 
 .header .flex,
@@ -45,4 +53,16 @@ li {
 .milkshakes {
   border-bottom: 5px solid #ffdd91;
   border-radius: 10px;
+}
+
+@media screen and (min-width: 1400px) {
+  .header {
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .header {
+    height: 40vh;
+  }
 }

@@ -8,10 +8,10 @@ const aboutPage = () => {
     aboutBody.classList.add('about-body','flex')
     aboutPage.append(aboutBody)
 
-    const imgBaker = document.createElement('img')
-    imgBaker.classList.add('my-1','py-1')
-    imgBaker.src = 'images/baker.jpeg'
-    aboutBody.append(imgBaker)
+    // const imgBaker = document.createElement('img')
+    // imgBaker.classList.add('my-1','py-1')
+    // imgBaker.src = 'images/baker.jpeg'
+    // aboutBody.append(imgBaker)
 
     const para = document.createElement('p')
     para.classList.add('my-1','py-1')
