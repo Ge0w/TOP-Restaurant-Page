@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #fbeec1;
+  --primary-color: #eee2dc;
   --secondary-color: #ffdd91;
 }
 
@@ -14,6 +14,7 @@
   font-size: 2.5rem;
   background-image: url(../dist/images/baked-sale2.jpg);
   background-size: 100% 100%;
+  color: #fff;
 }
 
 .header .flex,
@@ -35,14 +36,7 @@ li {
 }
 
 .navbar li:hover {
-  color: #ffdd91;
-}
-
-.about-body p {
-}
-
-.about-body img {
-  height: 600px;
+  color: var(--primary-color);
 }
 
 .menu h1 {

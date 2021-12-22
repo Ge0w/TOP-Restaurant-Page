@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 
 :root {
-  --primary-color: #6b4683;
+  --primary-color: #8d8741;
   --secondary-color: #ffdd91;
 }
 
@@ -14,9 +14,9 @@
 
 body {
   font-family: "Pacifico", sans-serif;
-  color: #fff;
+  color: #212121;
   line-height: 1.6;
-  background-color: #6b4683;
+  background-color: var(--primary-color);
 }
 
 ul {
@@ -92,7 +92,7 @@ img {
   padding: 10px 30px;
   cursor: pointer;
   background: var(--secondary-color);
-  color: var(--primary-color);
+  color: var(#212121);
   border: none;
   border-radius: 5px;
   text-align: center;
