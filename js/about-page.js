@@ -5,7 +5,7 @@ const aboutPage = () => {
     aboutPage.classList.add('about-page','flex')
 
     const aboutBody = document.createElement('div')
-    aboutBody.classList.add('about-body','flex')
+    aboutBody.classList.add('about-body','flex', 'my-1', 'py-1')
     aboutPage.append(aboutBody)
 
     // const imgBaker = document.createElement('img')
