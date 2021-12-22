@@ -2,8 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 
 :root {
-  --primary-color: #8d8741;
+  --primary-color: #eee2dc;
   --secondary-color: #ffdd91;
+  --font-color: #212121;
 }
 
 * {
@@ -92,7 +93,7 @@ img {
   padding: 10px 30px;
   cursor: pointer;
   background: var(--secondary-color);
-  color: var(#212121);
+  color: var(--font-color);
   border: none;
   border-radius: 5px;
   text-align: center;
