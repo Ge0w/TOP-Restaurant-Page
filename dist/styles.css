@@ -14,6 +14,7 @@
   background-image: url(images/baked-sale2.jpg);
   background-size: 100% 100%;
   color: #fff;
+  height: 60vh;
 }
 
 .header .flex,
@@ -43,6 +44,14 @@ li {
   font-size: 2rem;
 }
 
+.about-page {
+  height: 40vh;
+}
+
+.about-page p {
+  font-size: 1.5vw;
+}
+
 .contact {
   height: 40vh;
 }
@@ -66,12 +75,8 @@ li {
 }
 
 @media screen and (max-width: 1100px) {
-  .header {
-    height: 40vh;
-  }
-
-  .contact {
-    height: 60vh;
+  .about-page p {
+    font-size: 1.75vw;
   }
 }
 
@@ -79,14 +84,22 @@ li {
   .contact .flex {
     flex-direction: column;
   }
+
+  .about-page p {
+    font-size: 2vw;
+  }
+
+  .contact {
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 700px) {
-  .about-page p {
-    font-size: 3.5vw;
-  }
-
   .header h1 {
     font-size: 10vw;
+  }
+
+  .about-page p {
+    font-size: 2.25vw;
   }
 }
