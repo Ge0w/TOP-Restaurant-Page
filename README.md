@@ -1,4 +1,4 @@
-# Members Only
+# Restaurant Page
 
 ## Overview
 
