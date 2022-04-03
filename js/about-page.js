@@ -20,7 +20,7 @@ const aboutPage = () => {
 
   const deliverooLink = document.createElement("a");
   deliverooLink.classList.add("btn");
-  deliverooLink.textContent = "Order";
+  deliverooLink.textContent = "Order Now";
   aboutPage.append(deliverooLink);
   deliverooLink.addEventListener("click", () => {
     window.open(
