@@ -9,12 +9,12 @@ const aboutPage = () => {
   aboutPage.append(aboutBody);
 
   const title = document.createElement("h1");
-  title.classList.add("my-1 title");
+  title.classList.add("my-1");
   title.textContent = "Please enjoy our finest baked goods!";
   aboutBody.append(title);
 
   const subTitle = document.createElement("h2");
-  subTitle.classList.add("my-1 subtitle");
+  subTitle.classList.add("my-1");
   subTitle.textContent = "Baked by the love of our best bakers";
   aboutBody.append(subTitle);
 
