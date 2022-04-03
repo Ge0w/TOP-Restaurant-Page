@@ -10,17 +10,18 @@
 }
 
 .header {
-  font-size: 2.5rem;
-  background-image: url(images/baked-sale2.jpg);
-  background-size: 100% 100%;
+  font-size: 1.5rem;
   color: #fff;
-  height: 60vh;
+  height: 10vh;
 }
 
-.header .flex,
 .navbar .flex,
 .about-page .flex,
 .contact .flex {
+  flex-direction: row;
+}
+
+.header .flex {
   flex-direction: row;
 }
 
@@ -32,7 +33,6 @@
 li {
   padding: 1rem;
   margin: 1rem;
-  font-size: 2rem;
   cursor: pointer;
 }
 
@@ -45,7 +45,9 @@ li {
 }
 
 .about-page {
-  height: 40vh;
+  height: 90vh;
+  background-image: url(images/baked-sale2.jpg);
+  background-size: 100% 100%;
 }
 
 .about-page p {
