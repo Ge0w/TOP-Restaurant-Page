@@ -92,6 +92,10 @@ li {
   flex-direction: row;
 }
 
+.contact li {
+  font-size: 2vw;
+}
+
 .about-body {
   width: 60%;
 }
