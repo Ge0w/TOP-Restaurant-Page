@@ -34,7 +34,7 @@ const header = () => {
 
   const about = document.createElement("li");
   about.id = "aboutBtn";
-  about.textContent = "About";
+  about.textContent = "Home";
   uList.append(about);
 
   const menu = document.createElement("li");
