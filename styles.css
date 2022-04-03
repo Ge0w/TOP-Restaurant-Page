@@ -10,9 +10,9 @@
 }
 
 .header {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   color: #fff;
-  height: 10vh;
+  height: 15vh;
 }
 
 .navbar .flex,
@@ -23,6 +23,7 @@
 
 .header .flex {
   flex-direction: row;
+  justify-content: flex-start;
 }
 
 .menu .flex {
@@ -45,7 +46,7 @@ li {
 }
 
 .about-page {
-  height: 90vh;
+  height: 85vh;
   background-image: url(images/baked-sale2.jpg);
   background-size: 100% 100%;
 }
