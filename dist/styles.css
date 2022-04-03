@@ -1,6 +1,7 @@
 :root {
   --primary-color: #eee2dc;
   --secondary-color: #ffdd91;
+  --font-color: #212121;
 }
 
 * {
@@ -10,18 +11,19 @@
 }
 
 .header {
-  font-size: 2.5rem;
-  background-image: url(images/baked-sale2.jpg);
-  background-size: 100% 100%;
+  font-size: 1.25rem;
   color: #fff;
-  height: 60vh;
+  height: 15vh;
 }
 
-.header .flex,
 .navbar .flex,
-.about-page .flex,
 .contact .flex {
   flex-direction: row;
+}
+
+.header .flex {
+  flex-direction: row;
+  width: 100%;
 }
 
 .menu .flex {
@@ -32,12 +34,19 @@
 li {
   padding: 1rem;
   margin: 1rem;
-  font-size: 2rem;
   cursor: pointer;
 }
 
+.flex .logo {
+  justify-content: flex-start;
+}
+
+.navbar .flex {
+  justify-content: flex-end;
+}
+
 .navbar li:hover {
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .menu h1 {
@@ -45,15 +54,24 @@ li {
 }
 
 .about-page {
-  height: 40vh;
+  height: 85vh;
+  background-image: url(images/baked-sale2.jpg);
+  background-size: 100% 100%;
 }
 
-.about-page p {
-  font-size: 1.5vw;
+.about-page h1 {
+  font-size: 5vw;
+  font-weight: bold;
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.about-page h2 {
+  color: var(--font-color);
 }
 
 .contact {
-  height: 40vh;
+  height: 85vh;
 }
 
 .contact svg {
@@ -74,6 +92,14 @@ li {
   flex-direction: row;
 }
 
+.contact li {
+  font-size: 3.5vw;
+}
+
+.about-body {
+  width: 60%;
+}
+
 @media screen and (max-width: 1100px) {
   .about-page p {
     font-size: 1.75vw;
@@ -87,10 +113,6 @@ li {
 
   .about-page p {
     font-size: 2vw;
-  }
-
-  .contact {
-    height: auto;
   }
 }
 
