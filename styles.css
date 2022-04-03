@@ -46,7 +46,7 @@ li {
 }
 
 .navbar li:hover {
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .menu h1 {
@@ -93,7 +93,7 @@ li {
 }
 
 .contact li {
-  font-size: 2vw;
+  font-size: 3.5vw;
 }
 
 .about-body {
@@ -113,10 +113,6 @@ li {
 
   .about-page p {
     font-size: 2vw;
-  }
-
-  .contact {
-    height: auto;
   }
 }
 
