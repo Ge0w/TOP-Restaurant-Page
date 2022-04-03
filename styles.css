@@ -23,7 +23,7 @@
 
 .header .flex {
   flex-direction: row;
-  justify-content: flex-start;
+  width: 100%;
 }
 
 .menu .flex {
@@ -35,6 +35,14 @@ li {
   padding: 1rem;
   margin: 1rem;
   cursor: pointer;
+}
+
+.flex .logo {
+  justify-content: flex-start;
+}
+
+.navbar .flex {
+  justify-content: flex-end;
 }
 
 .navbar li:hover {
