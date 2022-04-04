@@ -1,9 +1,7 @@
 const menu = () => {
-    console.log('Menu')
-    const menu = document.createElement('div')
+  const menu = document.createElement("section");
 
-    menu.innerHTML = 
-    `<section class='menu flex my-1 py-1'>
+  menu.innerHTML = `<section class='menu flex my-1 py-1'>
         <h1>Milkshakes</h1>
         <div class='milkshakes flex'>
             <div class='card flex'>
@@ -70,9 +68,9 @@ const menu = () => {
                 <h3>£4.99</h3>
             </div>
         </div>
-        </section>`
+        </section>`;
 
-    return menu
-}
+  return menu;
+};
 
-export { menu }
+export { menu };

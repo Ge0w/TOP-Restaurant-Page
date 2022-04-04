@@ -1,6 +1,4 @@
 const aboutPage = () => {
-  console.log("About Page");
-
   const aboutPage = document.createElement("section");
   aboutPage.classList.add("about-page", "flex", "py-1");
 
