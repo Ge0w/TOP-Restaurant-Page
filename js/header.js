@@ -47,8 +47,6 @@ const header = () => {
   contact.textContent = "Contact";
   uList.append(contact);
 
-  console.log("header runs");
-
   return header;
 };
 
