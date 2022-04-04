@@ -14,16 +14,16 @@ const contactBtn = document.querySelector("#contactBtn");
 const menuBtn = document.querySelector("#menuBtn");
 
 aboutBtn.addEventListener("click", () => {
-  content.childNodes[2].remove();
+  content.childNodes[1].remove();
   content.append(aboutPage());
 });
 
 contactBtn.addEventListener("click", () => {
-  content.childNodes[2].remove();
+  content.childNodes[1].remove();
   content.append(contact());
 });
 
 menuBtn.addEventListener("click", () => {
-  content.childNodes[2].remove();
+  content.childNodes[1].remove();
   content.append(menu());
 });

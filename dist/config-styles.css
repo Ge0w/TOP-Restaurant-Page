@@ -115,3 +115,11 @@ img {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
+
+.underline {
+  width: 50%;
+  height: 2px;
+  background-color: var(--font-color);
+  margin: auto;
+  margin-top: 5px;
+}
