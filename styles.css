@@ -2,6 +2,7 @@
   --primary-color: #eee2dc;
   --secondary-color: #ffdd91;
   --font-color: #212121;
+  --secondary-bg-color: #e98074;
 }
 
 * {
@@ -103,7 +104,7 @@ li {
 .menu-container {
   width: 80%;
   height: 100px;
-  background-color: red;
+  background-color: var(--secondary-bg-color);
   border-radius: 20px;
 }
 

@@ -20,6 +20,42 @@ const menu = () => {
   menu.append(menuContainer);
   menuContainer.classList.add("flex", "menu-container", "my-1-2", "py-1-2");
 
+  //Menu items
+  const menuItems = [
+    {
+      title: "Mixed Brownie Boxes",
+      price: "£15.50",
+      description: "Box of mixed brownies",
+      img: "",
+    },
+    {
+      title: "Gooey Cookies",
+      price: "£12.50",
+      description: "Box of our best yet mixed gooey cookies",
+      img: "",
+    },
+    {
+      title: "Colourful Cupcakes",
+      price: "£14.95",
+      description: "Box of colourful cupboards, spongey and tasty",
+      img: "",
+    },
+  ];
+
+  //Loop menu items to create dom content
+  for (let i = 0; i < menuItems.length; i++) {
+    const menuItem = document.createElement("div");
+    menuContainer.append(menuItem);
+    const menuImg = document.createElement("img");
+    const title = document.createElement("p");
+    const description = document.createElement("p");
+    menuItem.append(menuImg);
+    menuItem.append(title);
+    menuItem.append(description);
+    title.textContent = `${menuItems[i].title}`;
+    description.textContent = `${menuItems[i].description}`;
+  }
+
   //   menu.innerHTML = `<section class='menu flex my-1 py-1'>
   //         <h1>Milkshakes</h1>
   //         <div class='milkshakes flex'>
@@ -88,7 +124,6 @@ const menu = () => {
   //             </div>
   //         </div>
   //         </section>`;
-
   return menu;
 };
 
