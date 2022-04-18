@@ -154,6 +154,10 @@ li {
     flex-direction: column;
   }
 
+  /* .header .navbar ul {
+    display: none;
+  } */
+
   .contact li {
     font-size: 5vh;
   }

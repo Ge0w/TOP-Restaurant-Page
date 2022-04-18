@@ -48,6 +48,10 @@ const header = () => {
   contact.textContent = "Contact";
   uList.append(contact);
 
+  const mobileIcon = document.createElement("div");
+  // mobileIcon.classList.add("fab", "fa-facebook");
+  uList.append(mobileIcon);
+
   return header;
 };
 
