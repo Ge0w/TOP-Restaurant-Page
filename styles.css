@@ -162,6 +162,10 @@ li {
     display: flex;
   }
 
+  .navbar {
+    display: "none";
+  }
+
   .header h1 {
     font-size: 3vw;
     padding: 0;
