@@ -137,7 +137,6 @@ li {
 }
 
 .mobile-icon {
-  display: none;
   cursor: pointer;
   margin-right: 50px;
 }
@@ -153,19 +152,12 @@ li {
     flex-direction: column;
   }
 
-  .header {
-    flex-direction: column;
-  }
-
   .about-page,
   .contact,
   .menu-container {
     height: 90vh;
   }
 
-  /* .header .navbar ul {
-    display: none;
-  } */
   .header .navbar .mobile-icon {
     display: flex;
   }
@@ -187,6 +179,10 @@ li {
   .about-page p {
     font-size: 2vw;
   }
+}
+
+.header {
+  flex-direction: column;
 }
 
 @media screen and (max-width: 700px) {
