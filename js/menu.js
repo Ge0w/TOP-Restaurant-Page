@@ -46,12 +46,14 @@ const menu = () => {
   for (let i = 0; i < menuItems.length; i++) {
     const menuItem = document.createElement("div");
     menuContainer.append(menuItem);
+    menuItem.classList.add("flex", "menu-item");
     const menuImg = document.createElement("img");
+    const menuText = document.createElement("div");
     const title = document.createElement("p");
     const description = document.createElement("p");
-    menuItem.append(menuImg);
-    menuItem.append(title);
-    menuItem.append(description);
+    menuItem.append(menuImg, menuText);
+    menuText.append(title, description);
+    // menuItem.append(description);
     title.textContent = `${menuItems[i].title}`;
     description.textContent = `${menuItems[i].description}`;
   }

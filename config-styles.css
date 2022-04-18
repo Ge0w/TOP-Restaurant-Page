@@ -49,6 +49,7 @@ p {
 img {
   max-height: 100%;
   height: 80px;
+  width: 80px;
 }
 
 /* Utilities */
