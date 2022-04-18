@@ -2,13 +2,9 @@ const header = () => {
   const header = document.createElement("div");
   header.classList.add("header", "flex");
 
-  const flexContainer = document.createElement("div");
-  flexContainer.classList.add("flex");
-  header.append(flexContainer);
-
   const logoContainer = document.createElement("div");
   logoContainer.classList.add("flex", "logo");
-  flexContainer.append(logoContainer);
+  header.append(logoContainer);
 
   const headerText = document.createElement("h1");
   headerText.classList.add("my-1-2", "py-1-2");
@@ -21,13 +17,9 @@ const header = () => {
   img.alt = "Logo";
   logoContainer.append(img);
 
-  const navbarContainer = document.createElement("div");
-  navbarContainer.classList.add("navbar", "flex");
-  flexContainer.append(navbarContainer);
-
   const navbar = document.createElement("navbar");
-  navbar.classList.add("flex");
-  navbarContainer.append(navbar);
+  navbar.classList.add("flex", "navbar");
+  header.append(navbar);
 
   const uList = document.createElement("ul");
   uList.classList.add("flex");
@@ -48,9 +40,14 @@ const header = () => {
   contact.textContent = "Contact";
   uList.append(contact);
 
-  const mobileIcon = document.createElement("div");
-  // mobileIcon.classList.add("fab", "fa-facebook");
-  uList.append(mobileIcon);
+  const mobileIcon = document.createElement("i");
+  mobileIcon.classList.add("fas", "fa-bars", "fa-2x", "mobile-icon");
+  navbar.append(mobileIcon);
+
+  mobileIcon.addEventListener("click", () => {
+    console.log("click");
+    header.style.flexDirection = "column";
+  });
 
   return header;
 };
