@@ -26,19 +26,19 @@ const menu = () => {
       title: "Mixed Brownie Boxes",
       price: "£15.50",
       description: "Box of mixed brownies",
-      img: "",
+      img: "/images/brownies.jpg",
     },
     {
       title: "Gooey Cookies",
       price: "£12.50",
       description: "Box of our best yet mixed gooey cookies",
-      img: "",
+      img: "/images/cookies.jpg",
     },
     {
       title: "Colourful Cupcakes",
       price: "£14.95",
       description: "Box of colourful cupboards, spongey and tasty",
-      img: "",
+      img: "images/cupcakes.jpg",
     },
   ];
 
@@ -53,9 +53,9 @@ const menu = () => {
     const description = document.createElement("p");
     menuItem.append(menuImg, menuText);
     menuText.append(title, description);
-    // menuItem.append(description);
     title.textContent = `${menuItems[i].title}`;
     description.textContent = `${menuItems[i].description}`;
+    menuImg.src = `${menuItems[i].img}`;
   }
 
   //   menu.innerHTML = `<section class='menu flex my-1 py-1'>
