@@ -5,6 +5,7 @@
   --primary-color: #eee2dc;
   --secondary-color: #ffdd91;
   --font-color: #212121;
+  --secondary-bg-color: #e98074;
 }
 
 * {
@@ -48,6 +49,7 @@ p {
 img {
   max-height: 100%;
   height: 80px;
+  width: 80px;
 }
 
 /* Utilities */

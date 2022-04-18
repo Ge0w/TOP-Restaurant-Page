@@ -2,6 +2,7 @@
   --primary-color: #eee2dc;
   --secondary-color: #ffdd91;
   --font-color: #212121;
+  --secondary-bg-color: #e98074;
 }
 
 * {
@@ -24,11 +25,6 @@
 .header .flex {
   flex-direction: row;
   width: 100%;
-}
-
-.menu .flex {
-  flex-direction: row;
-  flex-wrap: wrap;
 }
 
 li {
@@ -100,11 +96,51 @@ li {
   width: 60%;
 }
 
+.about-body h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+}
+
 .menu-container {
   width: 80%;
-  height: 100px;
-  background-color: red;
+  height: auto;
+  background-color: var(--secondary-bg-color);
   border-radius: 20px;
+  margin-top: 40px;
+}
+
+.menu-container .flex {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.menu-item {
+  width: 95%;
+  align-items: flex-start;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.menu-item span {
+  color: #042f4b;
+  font-family: "Roboto", sans-serif;
+}
+
+.menu-item p {
+  font-size: 1rem;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.menu-item h4 {
+  text-decoration: underline;
+}
+
+.menu-img {
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+  border-radius: 50%;
 }
 
 @media screen and (max-width: 1100px) {
@@ -116,6 +152,10 @@ li {
 @media screen and (max-width: 900px) {
   .contact .flex {
     flex-direction: column;
+  }
+
+  .contact li {
+    font-size: 5vh;
   }
 
   .about-page p {
