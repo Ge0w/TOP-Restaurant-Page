@@ -42,12 +42,8 @@ const header = () => {
 
   const mobileIcon = document.createElement("i");
   mobileIcon.classList.add("fas", "fa-bars", "fa-2x", "mobile-icon");
+  mobileIcon.id = "mobileIcon";
   navbar.append(mobileIcon);
-
-  mobileIcon.addEventListener("click", () => {
-    console.log("click");
-    header.style.flexDirection = "column";
-  });
 
   return header;
 };
