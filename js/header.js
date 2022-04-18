@@ -18,6 +18,7 @@ const header = () => {
   const img = document.createElement("img");
   img.classList.add("my-1-2", "py-1-2");
   img.src = "images/icon_logo.png";
+  img.alt = "Logo";
   logoContainer.append(img);
 
   const navbarContainer = document.createElement("div");
