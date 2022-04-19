@@ -158,12 +158,12 @@ li {
     height: 90vh;
   }
 
-  .header .navbar .mobile-icon {
+  .mobile-icon {
     display: flex;
   }
 
   .navbar {
-    display: "none";
+    display: none;
   }
 
   .header h1 {
