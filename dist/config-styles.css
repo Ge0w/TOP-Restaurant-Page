@@ -14,6 +14,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 2vw;
+}
+
 body {
   font-family: "Pacifico", sans-serif;
   color: #212121;
@@ -35,6 +39,7 @@ h2 {
   font-weight: 300;
   line-height: 1.2;
   margin: 10px 0;
+  font-size: 2rem;
 }
 
 input {
@@ -48,8 +53,6 @@ p {
 
 img {
   max-height: 100%;
-  height: 80px;
-  width: 80px;
 }
 
 /* Utilities */
@@ -99,7 +102,7 @@ img {
   border: none;
   border-radius: 20px;
   text-align: center;
-  width: 140px;
+  width: 200px;
 }
 
 .flex {
