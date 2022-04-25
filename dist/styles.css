@@ -54,7 +54,7 @@ li {
 }
 
 .about-page h2 {
-  color: var(--font-color);
+  color: var(--primary-color);
 }
 
 .contact {
@@ -90,6 +90,10 @@ li {
 .about-body h2 {
   font-family: "Roboto", sans-serif;
   font-weight: bolder;
+}
+
+.menu h1 {
+  margin-top: 50px;
 }
 
 .menu-container {
@@ -140,7 +144,7 @@ li {
 }
 
 .order {
-  margin-bottom: 300px;
+  margin-bottom: 200px;
   border: 2px solid white;
 }
 
@@ -167,7 +171,7 @@ li {
 
   .about-page,
   .contact,
-  .menu-container {
+  .menu {
     height: 95vh;
   }
 
@@ -187,5 +191,14 @@ li {
 
   .order {
     width: 15rem;
+  }
+
+  .menu-img {
+    height: 10rem;
+    width: 10rem;
+  }
+
+  .menu {
+    justify-content: flex-start;
   }
 }
