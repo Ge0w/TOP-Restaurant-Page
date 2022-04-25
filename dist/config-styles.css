@@ -100,9 +100,8 @@ img {
   background: var(--secondary-color);
   color: var(--font-color);
   border: none;
-  border-radius: 20px;
   text-align: center;
-  width: 200px;
+  width: 10rem;
 }
 
 .flex {

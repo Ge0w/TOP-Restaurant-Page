@@ -139,12 +139,17 @@ li {
   display: none;
 }
 
+.order {
+  margin-bottom: 300px;
+  border: 2px solid white;
+}
+
 @media screen and (max-width: 768px) {
   .links {
-    padding-top: 1rem;
     display: none;
     flex-direction: column;
     width: 100%;
+    border-top: 2px solid var(--font-color);
   }
 
   .links.active {
@@ -168,5 +173,19 @@ li {
 
   .mobile-icon {
     display: flex;
+    margin-right: 30px;
+  }
+
+  .first-row {
+    justify-content: space-between;
+  }
+
+  .logo {
+    justify-content: flex-start;
+    margin-left: 30px;
+  }
+
+  .order {
+    width: 15rem;
   }
 }
