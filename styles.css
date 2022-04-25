@@ -12,15 +12,18 @@
 }
 
 .header {
-  font-size: calc(1rem + 1vw);
   color: #fff;
-  height: 15vh;
   width: 100%;
   flex-direction: row;
+  background-color: #659dbd;
 }
 
 .contact .flex {
   flex-direction: row;
+}
+
+.logo img {
+  height: 4rem;
 }
 
 .header .flex {
@@ -34,22 +37,17 @@ li {
   cursor: pointer;
 }
 
-.navbar li:hover {
+.links li:hover {
   color: var(--secondary-color);
-}
-
-.menu h1 {
-  font-size: 2rem;
 }
 
 .about-page {
   background-image: url(images/baked-sale2.jpg);
-  background-size: 100% 100%;
-  height: 85vh;
+  background-size: cover;
+  height: 92vh;
 }
 
 .about-page h1 {
-  font-size: 5vw;
   font-weight: bold;
   color: var(--primary-color);
   text-align: center;
@@ -82,7 +80,7 @@ li {
 }
 
 .contact li {
-  font-size: 3.5vw;
+  font-size: 2rem;
 }
 
 .about-body {
@@ -120,7 +118,6 @@ li {
 }
 
 .menu-item p {
-  font-size: 1rem;
   margin: 0;
   font-family: "Roboto", sans-serif;
 }
@@ -139,58 +136,37 @@ li {
 .mobile-icon {
   cursor: pointer;
   margin-right: 50px;
+  display: none;
 }
 
-@media screen and (max-width: 1100px) {
-  .about-page p {
-    font-size: 1.75vw;
+@media screen and (max-width: 768px) {
+  .links {
+    padding-top: 1rem;
+    display: none;
+    flex-direction: column;
+    width: 100%;
   }
-}
 
-@media screen and (max-width: 900px) {
+  .links.active {
+    display: flex;
+  }
+
   .contact .flex {
+    flex-direction: column;
+  }
+
+  .header {
+    min-height: 5vh;
     flex-direction: column;
   }
 
   .about-page,
   .contact,
   .menu-container {
-    height: 90vh;
+    height: 95vh;
   }
 
   .mobile-icon {
     display: flex;
-  }
-
-  .navbar {
-    display: none;
-  }
-
-  .header h1 {
-    font-size: 3vw;
-    padding: 0;
-  }
-
-  .header img {
-    transform: scale(0.5);
-    padding: 0;
-  }
-
-  .contact li {
-    font-size: 5vh;
-  }
-
-  .about-page p {
-    font-size: 2vw;
-  }
-}
-
-.header {
-  flex-direction: column;
-}
-
-@media screen and (max-width: 700px) {
-  .about-page p {
-    font-size: 2.25vw;
   }
 }
