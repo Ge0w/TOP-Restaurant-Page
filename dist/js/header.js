@@ -15,6 +15,7 @@ const header = () => {
   headerText.textContent = "The Baked Sale";
   logoContainer.append(headerText);
 
+  const picture = document.createElement("picture");
   const img = document.createElement("img");
   img.classList.add("my-1-2", "py-1-2");
   img.src = "images/icon_logo.png";
