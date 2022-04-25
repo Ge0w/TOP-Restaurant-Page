@@ -3,7 +3,7 @@ const header = () => {
   header.classList.add("header", "flex");
 
   const firstRow = document.createElement("div");
-  firstRow.classList.add("flex", "logo");
+  firstRow.classList.add("flex", "first-row");
   header.append(firstRow);
 
   const logoContainer = document.createElement("div");

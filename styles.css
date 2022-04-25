@@ -92,6 +92,10 @@ li {
   font-weight: bolder;
 }
 
+.menu h1 {
+  margin-top: 10px;
+}
+
 .menu-container {
   width: 80%;
   height: auto;
@@ -139,12 +143,17 @@ li {
   display: none;
 }
 
+.order {
+  margin-bottom: 200px;
+  border: 2px solid white;
+}
+
 @media screen and (max-width: 768px) {
   .links {
-    padding-top: 1rem;
     display: none;
     flex-direction: column;
     width: 100%;
+    border-top: 2px solid var(--font-color);
   }
 
   .links.active {
@@ -162,11 +171,34 @@ li {
 
   .about-page,
   .contact,
-  .menu-container {
+  .menu {
     height: 95vh;
   }
 
   .mobile-icon {
     display: flex;
+    margin-right: 30px;
+  }
+
+  .first-row {
+    justify-content: space-between;
+  }
+
+  .logo {
+    justify-content: flex-start;
+    margin-left: 30px;
+  }
+
+  .order {
+    width: 15rem;
+  }
+
+  .menu-img {
+    height: 10rem;
+    width: 10rem;
+  }
+
+  .menu {
+    justify-content: flex-start;
   }
 }

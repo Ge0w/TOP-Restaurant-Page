@@ -17,7 +17,7 @@ const aboutPage = () => {
   aboutBody.append(subTitle);
 
   const deliverooLink = document.createElement("a");
-  deliverooLink.classList.add("btn");
+  deliverooLink.classList.add("btn", "order");
   deliverooLink.textContent = "Order Now";
   aboutPage.append(deliverooLink);
   deliverooLink.addEventListener("click", () => {
