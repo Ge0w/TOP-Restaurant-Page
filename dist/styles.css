@@ -147,6 +147,7 @@ li {
 .order {
   margin-bottom: 200px;
   border: 2px solid white;
+  border-radius: 5px;
 }
 
 @media screen and (max-width: 768px) {
@@ -154,7 +155,7 @@ li {
     display: none;
     flex-direction: column;
     width: 100%;
-    border-top: 2px solid var(--font-color);
+    background-color: var(--secondary-bg-color);
   }
 
   .links.active {
@@ -163,6 +164,7 @@ li {
 
   .contact .flex {
     flex-direction: column;
+    justify-content: space-evenly;
   }
 
   .header {
