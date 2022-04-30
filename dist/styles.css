@@ -46,11 +46,11 @@ li {
   background-image: url(images/baked-sale2.jpg);
   background-size: cover;
   height: 92vh;
+  color: var(--primary-color);
 }
 
 .about-page h1 {
   font-weight: bold;
-  color: var(--primary-color);
   text-align: center;
 }
 
