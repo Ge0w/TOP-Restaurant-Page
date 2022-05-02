@@ -24,6 +24,7 @@
 
 .logo img {
   height: 4rem;
+  width: 4rem;
 }
 
 .header .flex {
@@ -45,16 +46,16 @@ li {
   background-image: url(images/baked-sale2.jpg);
   background-size: cover;
   height: 92vh;
+  color: var(--primary-color);
 }
 
 .about-page h1 {
   font-weight: bold;
-  color: var(--primary-color);
   text-align: center;
 }
 
 .about-page h2 {
-  color: var(--font-color);
+  color: var(--primary-color);
 }
 
 .contact {
@@ -93,7 +94,7 @@ li {
 }
 
 .menu h1 {
-  margin-top: 10px;
+  margin-top: 50px;
 }
 
 .menu-container {
@@ -146,6 +147,7 @@ li {
 .order {
   margin-bottom: 200px;
   border: 2px solid white;
+  border-radius: 5px;
 }
 
 @media screen and (max-width: 768px) {
@@ -153,7 +155,7 @@ li {
     display: none;
     flex-direction: column;
     width: 100%;
-    border-top: 2px solid var(--font-color);
+    background-color: var(--secondary-bg-color);
   }
 
   .links.active {
@@ -162,6 +164,7 @@ li {
 
   .contact .flex {
     flex-direction: column;
+    justify-content: space-evenly;
   }
 
   .header {
